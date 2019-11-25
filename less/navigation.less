@@ -1,1 +1,47 @@
 // Navigation code here
+@import "mixins.less";
+.nav-bar {
+  .display-mixin(flex, column);
+  background: #f6f6f6;
+  padding: 20px;
+  h1 {
+    text-align: center;
+    font-size: 45px;
+  }
+  .nav-content {
+    .display-mixin(flex, row);
+    justify-content: space-around;
+    margin: 0 auto;
+    margin-top: 15px;
+    width: 25%;
+    a {
+      text-decoration: none;
+      font-weight: bold;
+      font-size: 18px;
+    }
+  }
+}
+
+@media @phone {
+  .nav-bar {
+    .display-mixin(flex, column);
+    background: #f6f6f6;
+    padding: 20px;
+    h1 {
+      text-align: center;
+      font-size: 45px;
+    }
+    .nav-content {
+      .display-mixin(flex, row);
+      justify-content: space-around;
+      margin: 0 auto;
+      margin-top: 15px;
+      width: 90%;
+      a {
+        text-decoration: none;
+        font-weight: bold;
+        font-size: 18px;
+      }
+    }
+  }
+}
