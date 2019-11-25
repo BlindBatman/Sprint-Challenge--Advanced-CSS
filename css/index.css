@@ -345,7 +345,11 @@ footer {
     padding: 5px 5px;
     width: 100px;
     padding: 25px 25px;
+<<<<<<< HEAD
     width: 96%;
+=======
+    width: 100%;
+>>>>>>> 3671eb65a64b43cdd57ec944c604a24c760c0df1
     margin-bottom: 30px;
   }
   .home .walk .walk-img {
