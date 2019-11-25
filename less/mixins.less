@@ -1,1 +1,19 @@
 // Mixins Here
+
+.display-mixin(@type,@direction) {
+  display: @type;
+  flex-direction: @direction;
+}
+.brdr-radius-mixin(@rad-px) {
+  border-radius: @rad-px;
+}
+
+.btn-mixin(@btn-rad,@text-color) {
+  border-radius: @btn-rad;
+  color: @text-color;
+  background: #22283a;
+  font-size: 20px;
+  text-align: center;
+  padding: 5px 5px;
+  width: 100px;
+}
